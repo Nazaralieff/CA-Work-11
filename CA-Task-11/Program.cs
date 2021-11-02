@@ -7,26 +7,54 @@ namespace CA_Task_11
     class Program
     {
         #region Task 1
+        // Modified
         //static void Main(string[] args)
         //{
-        //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5 };
-        //    Console.WriteLine(Clone(arr));
+        //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5, 5 };
+        //    foreach (var item in arr)
+        //    {
+        //        Console.Write(item + " ");
+        //    }
+        //    Console.WriteLine();
+        //    Console.WriteLine(DublicateNumber(arr));
+
         //}
 
-        //static int Clone(int [] array)
+        //static int DublicateNumber(int[] array)
         //{
-        //    int count = 0;
+        //    int[] dubl = new int[0];
         //    for (int i = 0; i < array.Length; i++)
         //    {
         //        for (int j = 0; j < array.Length; j++)
         //        {
-        //            if (array[i] == array[j] && i != j)
+        //            if (i != j && array[i] == array[j] && Array.TrueForAll(dubl, elem => elem != array[i]))
         //            {
-        //                count++;
+        //                Array.Resize(ref dubl, dubl.Length + 1);
+        //                dubl[dubl.Length - 1] = array[i];
         //            }
         //        }
         //    }
-        //    return count;
+            
+        //    int[] dublcount = new int[0] { };
+        //    foreach (var item in dubl)
+        //    {
+        //        Console.Write(item + " ");
+        //        int[] arrayFind = Array.FindAll(array, elem => elem == item);
+        //        int count = dublcount.Length + arrayFind.Length;
+        //        Array.Resize(ref dublcount, count);
+        //        if (arrayFind.Length == 0)
+        //        {
+        //            arrayFind.CopyTo(dublcount, 0);
+        //        }
+        //        else
+        //        {
+        //            arrayFind.CopyTo(dublcount, count - arrayFind.Length);
+        //        }
+
+        //    }
+        //    Console.WriteLine();
+        //    return dublcount.Length;
+
         //}
         #endregion
 
