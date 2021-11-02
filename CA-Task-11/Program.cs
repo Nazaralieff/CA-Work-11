@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using System.Linq;
 
 namespace CA_Task_11
 {
@@ -34,13 +35,14 @@ namespace CA_Task_11
         //{
         //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5 };
         //    Console.WriteLine(Exists(arr, 8));
+        //    // Console.WriteLine(Array.Exists(arr, elem => elem == 8));
         //}
-        //static bool Exists(int [] array, int num)
+        //static bool Exists(int[] array, int num)
         //{
         //    bool boolValue;
         //    for (int i = 0; i < array.Length; i++)
         //    {
-        //        if(array[i] == num)
+        //        if (array[i] == num)
         //        {
         //            return true;
         //        }
@@ -54,6 +56,11 @@ namespace CA_Task_11
         //static void Main(string[] args)
         //{
         //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5 };
+        //    Array.Reverse(arr);
+        //    //for (int i = 0; i < arr.Length; i++)
+        //    //{
+        //    //    Console.Write(arr[i]);
+        //    //}
         //    for (int i = arr.Length - 1; i >= 0; i--)
         //    {
         //        Console.Write(arr[i] + " ");
@@ -80,9 +87,13 @@ namespace CA_Task_11
         #region Task 5
         //static void Main(string[] args)
         //{
-        //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5};
+        //    int[] arr = new int[] { 7, 8, 3, 7, 4, 3, 5 };
         //    int maks = arr[0];
         //    int min = arr[0];
+
+        //    //Console.WriteLine("Max : " + arr.Max());
+        //    //Console.WriteLine("Min : " + arr.Min());
+        //    //Console.WriteLine("Sum : " + arr.Sum());
         //    for (int i = 0; i < arr.Length; i++)
         //    {
         //        if (arr[i] > maks) maks = arr[i];

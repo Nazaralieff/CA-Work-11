@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aRBWLYDZbbjDEtsjFc3nov7AoRZNVQqYtyE9UHjTkAdsWYjIELgAYfWmpJxfnR3ZbQTZonUqWTZcKwqk65Sg0g==",
+  "dgSpecHash": "qZyqW+L05NPwYEujCliYWg8urJOd+y5u4ObQWHHwN1VWpm7gb/XB1yDGqxbfuTZ5edL1lgvapGW1YOiRNvZKWg==",
   "success": true,
-  "projectFilePath": "N:\\App\\Visual Studio\\CA-Task-11\\CA-Task-11\\CA-Task-11.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tu201806044\\Desktop\\CA-Work-11\\CA-Task-11\\CA-Task-11.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tu201806044\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
   "logs": []
 }
